@@ -50,21 +50,21 @@
                         >;
                 };
 
-                raise_layer {
+                lower_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB       |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-// | CTRL / ESC |  `  |  -  |  =  |  [  |  ]  |   |     |  4  |  5  |  6  |  \  |  `   |
-// | SHFT       |     |  /  |  \  |  (  |  )  |   |     |  1  |  2  |  3  | "|" |  ~   |
+// | CTRL / ESC |  `  |  -  |  =  |  (  |  )  |   |     |  4  |  5  |  6  |  \  |  `   |
+// | SHFT       |     |  /  |  \  |  [  |  ]  |   |     |  1  |  2  |  3  | "|" |  ~   |
 //                          | GUI |     | ALT |   | ENT |     |     |
                         bindings = <
    &kp TAB       &kp N1    &kp N2    &kp N3    &kp N4           &kp N5            &kp N6    &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &mt LCTRL ESC &kp GRAVE &kp MINUS &kp EQUAL &kp LEFT_BRACKET &kp RIGHT_BRACKET &trans    &kp N4   &kp N5 &kp N6    &kp BSLH &kp GRAVE
-   &kp LSHFT     &trans    &kp SLASH &kp BSLH  &lparlt          &rpargt           &trans    &kp N1   &kp N2 &kp N3    &kp PIPE &kp TILDE
+   &mt LCTRL ESC &kp GRAVE &kp MINUS &kp EQUAL &lpartl          &rpargt           &trans    &kp N4   &kp N5 &kp N6    &kp BSLH &kp GRAVE
+   &kp LSHFT     &trans    &kp SLASH &kp BSLH  &kp LEFT_BRACKET &kp RIGHT_BRACKET &trans    &kp N1   &kp N2 &kp N3    &kp PIPE &kp TILDE
                                      &kp LGUI  &trans           &kp LALT          &kp RET   &trans   &trans
                         >;
                 };
 
-                lower_layer {
+                raise_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB       |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
 // | CTRL / ESC | BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
