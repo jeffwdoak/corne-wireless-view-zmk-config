@@ -58,7 +58,7 @@
 //                          | GUI |     | ALT |   | ENT |     |     |
                         bindings = <
    &kp TAB       &kp N1    &kp N2    &kp N3    &kp N4           &kp N5            &kp N6    &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &mt LCTRL ESC &kp GRAVE &kp MINUS &kp EQUAL &lpartl          &rpargt           &trans    &kp N4   &kp N5 &kp N6    &kp BSLH &kp GRAVE
+   &mt LCTRL ESC &kp GRAVE &kp MINUS &kp EQUAL &lparlt          &rpargt           &trans    &kp N4   &kp N5 &kp N6    &kp BSLH &kp GRAVE
    &kp LSHFT     &trans    &kp SLASH &kp BSLH  &kp LEFT_BRACKET &kp RIGHT_BRACKET &trans    &kp N1   &kp N2 &kp N3    &kp PIPE &kp TILDE
                                      &kp LGUI  &trans           &kp LALT          &kp RET   &trans   &trans
                         >;
